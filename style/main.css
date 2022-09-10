@@ -10,3 +10,34 @@
   padding: 0 20px;
   margin: 0 auto;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.site-header {
+  background-color: rgb(15, 100, 100);
+}
+
+.site-header__block {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__navbar {
+  margin-left: auto;
+}
+
+.site-header__list {
+  display: flex;
+}
+
+.site-header__link {
+  display: inline-block;
+  padding: 20px;
+  color: #fff;
+}
